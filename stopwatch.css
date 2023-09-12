@@ -1,0 +1,41 @@
+.body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  height :350px;
+  width : 700px;
+  border-radius: 10px;
+  background-color: greenyellow;
+  margin-top: 90px;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:coral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#id0 {
+  margin-top: 18px;
+}
+#start,#stop,#Reset {
+  padding: 7px 30px 7px 30px;
+  margin: 0px 8px 25px 0px;
+  background-color: greenyellow;
+  color: coral;
+  border-color: coral;
+}
+#start:active {
+  background-color:green;
+  color: white;
+}
+#stop:active {
+  background-color: yellow;
+  color: white;
+}
+#Reset:active {
+  background-color: red;
+  color: white;
+}
